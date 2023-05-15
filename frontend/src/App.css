@@ -38,25 +38,3 @@
   }
 }
 
-/* .container {
-  display: flex;
-  height: 100vh;
-  background-color: red;
-} */
-
-/* .calculator-section {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
-  box-sizing: border-box; 
-  width: 100vh;
-} */
-
-/* .calculation-history-section {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  margin-bottom: 200px;
-} */

@@ -164,13 +164,14 @@ const Calculator = () => {
             <div className="save-section">
               <div className="save-section-wrapper">
                 <div className="heading">
-                  <h5>CALCULATION NAME</h5>
+                  <h6>CALCULATION NAME</h6>
                 </div>
 
                 <div className="input-section">
                   <form>
                     <input
                       name="name"
+                      placeholder="Enter name"
                       // id="name"
                       type="text"
                       onChange={(e) => setName(e.target.value)}
@@ -179,7 +180,7 @@ const Calculator = () => {
                   </form>
                   <div className="button">
                     <button
-                      className="btn btn-sm btn-success"
+                      className="btn btn-sm btn-primary"
                       onClick={handleSubmit}
                     >
                       Save
