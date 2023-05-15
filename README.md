@@ -20,11 +20,17 @@ To get a local copy of this project, follow these steps:
 
    ```shell
    git clone https://github.com/sanoopnazeer/Calculator-with-history.git
+
 4. After running the command, the project will be cloned to your local machine.
+5. Open two separate terminals or command prompts.
+6. Navigate to the cloned directory on both terminals.
+
+   ```shell
+   cd Calculator-with-history
 
 ### Frontend Setup
 
-1. Navigate to the frontend folder:
+1. In the first terminal, navigate to the frontend folder:
 
    ```shell
    cd frontend
@@ -36,7 +42,7 @@ To get a local copy of this project, follow these steps:
    
 ### Backend Setup
 
-1. Navigate to the backend folder:
+1. In the second terminal, navigate to the backend folder:
 
    ```shell
    cd backend
@@ -50,27 +56,16 @@ To get a local copy of this project, follow these steps:
 
 To start the application, you'll need to run both the frontend and backend servers. Follow these steps:
 
-1. Open two separate terminals or command prompts.
-2. In the first terminal, navigate to the frontend folder:
-
-   ```shell
-   cd frontend
-   
-3. Start the frontend server by running the following command:
+1. In the first terminal, start the frontend server by running the following command:
 
    ```shell
    npm start
    
-4. In the second terminal, navigate to the backend folder:
-
-   ```shell
-   cd backend
-   
-5. Start the backend server by running the following command:
+2. In the second terminal, start the backend server by running the following command:
 
    ```shell
    npm start
 
 Both the frontend and backend servers will start running on your browser.
 
-# Thank you
+
