@@ -10,4 +10,4 @@ const calcSchema = mongoose.Schema(
 );
 
 const Calculation = mongoose.model("Calculation", calcSchema);
-module.exports = Calculation
+module.exports = Calculation;

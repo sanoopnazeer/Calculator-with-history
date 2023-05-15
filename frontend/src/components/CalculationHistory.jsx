@@ -95,12 +95,9 @@ const CalculationHistory = ({ count, sendData }) => {
       <DataTable
         columns={columns}
         data={allCalc}
-        // fixedHeader
-        // fixedHeaderScrollHeight="500px"
         selectableRows
-        // selectableRowsHighlight
         highlightOnHover
-        // pagination
+        pagination
       />
       </div>
     </>

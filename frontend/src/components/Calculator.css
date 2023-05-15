@@ -6,12 +6,35 @@
     color: #0c0c0cb0;
   }
 
-.calculator {
-    top: 40%;
-    left: 20%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
+.main{
+    height: 100vh;
+    display: flex;
+}
+
+.left-section{
+    flex: 4.5;
+}
+
+.right-section{
+    flex: 7;
+    padding-top: 45px;
+}
+
+.left-section-wrapper, .right-section-wrapper{
+    padding: 20px;
+    height: 100%;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-wrapper {
+    /* top: 10%; */
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     text-align: center;
     background: rgb(59, 59, 59);
@@ -55,16 +78,13 @@ input[type="text1"] {
 
 
 .save-section {
-    margin-top: 400px;
-    margin-right: 100px;
-    margin-left: 35px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .input-section {
-    margin-top: 10px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
 }
 
 .button {

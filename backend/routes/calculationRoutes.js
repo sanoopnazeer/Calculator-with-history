@@ -5,13 +5,11 @@ const router = express.Router();
 router.post("/save", async (req, res) => {
   try {
     const { name, calc, result } = req.body;
-    // console.log(req.body);
     const data = await calculationModel.create({
       name,
       calc,
       result,
     });
-    // console.log(data);
     res.status(200).json(data);
   } catch (error) {
     console.log(error);

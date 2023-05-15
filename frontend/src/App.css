@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-color: rgb(199, 179, 154);
 }
 
@@ -38,25 +38,25 @@
   }
 }
 
-.container {
+/* .container {
   display: flex;
   height: 100vh;
-  /* justify-content: center;
-  align-content: center; */
-  /* background-color: red; */
-}
+  background-color: red;
+} */
 
-.calculator-section {
+/* .calculator-section {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: blue; */
-  /* width: 100vh; */
-}
+  background-color: blue;
+  box-sizing: border-box; 
+  width: 100vh;
+} */
 
-.calculation-history-section {
+/* .calculation-history-section {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
   margin-bottom: 200px;
-}
+} */
